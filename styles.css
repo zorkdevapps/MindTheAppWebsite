@@ -1,0 +1,42 @@
+:root {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    --link-color: #007aff;
+}
+
+@supports (font: -apple-system-body) {
+  :root {
+    font: -apple-system-body;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --link-color: #0a84ff;
+    }
+}
+
+body {
+    max-width: 800px;
+    padding: 0px 40px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 0px 16px;    
+    }
+}
+
+a {
+    color: var(--link-color);
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
