@@ -26,4 +26,4 @@ If you have any questions or suggestions about this privacy policy, do not hesit
 
 We reserve the right to modify this privacy policy at any time, so please review it frequently.
 
-This policy is effective as of March 3, 2022.
+This policy is effective as of December 1, 2023.
