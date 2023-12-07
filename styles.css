@@ -1,5 +1,5 @@
 :root {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: ui-rounded, -apple-system, BlinkMacSystemFont, sans-serif, "Apple Color Emoji";
     --tertiary-text-color: #6b6b6b;
     --link-color: #007aff;
     --padding: 8px;
