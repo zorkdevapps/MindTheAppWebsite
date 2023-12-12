@@ -14,7 +14,15 @@
                         "exclude": true
                     },
                     {
-                        "/": "*"
+                        "/": "/support",
+                        "exclude": true
+                    },
+                    {
+                        "/": "/",
+                        "exclude": true
+                    },
+                    {
+                        "/": "/*"
                     }
                 ]
             }
