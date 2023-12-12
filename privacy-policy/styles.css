@@ -1,11 +1,11 @@
 :root {
     font-family: ui-rounded, -apple-system, BlinkMacSystemFont, sans-serif, "Apple Color Emoji";
-    --link-color: #007aff;
+    --link-color: #4867e7;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --link-color: #0a84ff;
+        --link-color: #4f71ff;
     }
 }
 
@@ -21,6 +21,11 @@ body {
     body {
         padding: 0px 16px;    
     }
+}
+
+img {
+    vertical-align: middle;
+    padding-right: 8px;
 }
 
 a {
