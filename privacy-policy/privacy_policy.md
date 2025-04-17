@@ -10,7 +10,7 @@ Our apps only communicate with Apple’s servers, no third party is involved at 
 
 ## Data Storage
 
-Mind The App stores your data locally and synchronizes it between devices using Apple’s CloudKit. Mind The App will store your data in your private CloudKit container in order to synchronize it between devices. 
+Mind The App stores your data locally and synchronizes it between devices using Apple’s CloudKit. Mind The App will store your data in your private CloudKit container in order to synchronize it between devices.
 
 Therefore, we do not have access to any data stored in your iCloud account. We also do not have access to your Apple ID - only a unique identifier that is scoped to just our app. It is not possible to track your identity between apps with this identifier. You can revoke access to iCloud and delete all your data in the settings of your device.
 

@@ -1,5 +1,10 @@
 :root {
-    font-family: ui-rounded, -apple-system, BlinkMacSystemFont, sans-serif, "Apple Color Emoji";
+    font-family:
+        ui-rounded,
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif,
+        "Apple Color Emoji";
     --tertiary-text-color: #6b6b6b;
     --link-color: #4867e7;
     --padding: 8px;
@@ -16,7 +21,6 @@ body {
     max-width: 500px;
     margin: auto;
     text-align: center;
-    line-height: 1.5
     font-size: 100%;
 }
 
@@ -31,7 +35,9 @@ a {
     color: var(--link-color);
 }
 
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
     text-decoration: none;
 }
 
